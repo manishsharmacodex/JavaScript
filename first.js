@@ -8,14 +8,11 @@ button.addEventListener("click", function() {
     let result = 0;
     let newNumber1 = parseInt(number1);
     let newNumber2 = parseInt(number2);
-    let newChoice = parseInt(choice);
+    let newChoice = String(choice);
     const message ="";
 
-    switch(newChoice) {
-        case 1:
-             message = "total additions is : ";
-            result = newNumber1 + newNumber2;
-            break;  
+    if (newChoice == "+") {
+        result = newNumber1 + newNumber2;
     }
 
     calculateDisplay.innerHTML = message + result;
