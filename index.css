@@ -71,4 +71,7 @@ h1 {
         background: #046950;
         color: #fff;
     }
+    #output{
+        border-top: 3px solid rgba(59, 59, 235, 0.719);
+    }
 }
