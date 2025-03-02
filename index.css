@@ -62,3 +62,10 @@ h1 {
     font-weight: bolder;
     margin: 10px 30px;
 }
+
+/* code for mobile version */
+@media (max-width: 420px) {
+    .h1{
+        font-size: 12px;
+    }
+}
