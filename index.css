@@ -65,7 +65,10 @@ h1 {
 
 /* code for mobile version */
 @media (max-width: 420px) {
-    .h1{
-        font-size: 12px;
+    h1{
+        font-size: 20px;
+        border-bottom: 1px solid #cecece;
+        background: #046950;
+        color: #fff;
     }
 }
