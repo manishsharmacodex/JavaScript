@@ -1,10 +1,9 @@
-function voteCheck(voteAge,age) {
-    const canVote = age >= voteAge ? "Yes You Can vote now" : "sorry you are not allowed for vote now this time";
-    console.log(canVote);
+function oddEven(number){
+    const even ="this number is even";
+    const odd = "this number is odd";
+    const result = number % 2 == 0 ? even : odd;
+    console.log(result);
 }
 
-
-const voteAge = 18;
-const age = 22;
-
-voteCheck(voteAge, age);
+const number = 4;
+oddEven(number);
